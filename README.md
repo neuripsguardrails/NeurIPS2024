@@ -8,7 +8,7 @@ In the swiftly evolving field of artificial intelligence, large language models 
 
 The repository contains all documentation, including our datasets and code.
 
-- [/data](/data): our custom training data
+- [/data](/data): our custom training and test data
 - [/llamaguard](/llamaguard): training and fine tuning Llama Guard model using our data and use case
 - [/nemo](/nemo): our experimentation with NeMo Guard using our data and use case
 - [/rephrase_eval](/rephrase_eval): study how well NeMo can capture similar semantic representations of a single config prompt
