@@ -1,16 +1,12 @@
-# Enhancing LLM Guardrails: A Comparative Analysis Using Ensemble Techniques
+# A Comparative Analysis of Guardrail Frameworks for Large Language Models and Enhancement with Ensemble Techniques
 
 ## Abstract
 
-We present an approach for enhancing LLM guardrails through a comparative analysis using ensemble techniques. We examine two main approaches, Llama Guard and NeMo guardrails, which represent LLM-based and vector similarity search approaches, respectively. Our study aims to explore the effectiveness of these frameworks in practical scenarios, emphasizing the need for robust content moderation interfaces between users and LLMs.
-
-We conduct a comparative study between Llama Guard and NeMo, evaluating their accuracy on new guardrail categories. We then propose novel strategies to improve upon existing guardrails, including fine-tuning Llama Guard for novel guardrail categories with practical use cases. Experimental results reveal the impact of dataset size and model configuration on the effectiveness of guardrail enforcement.
-
-Overall, this research contributes to the advancement of content moderation paradigms for LLMs, providing insights into the potential for ensemble techniques to enhance guardrail enforcement in real-world applications.
+In the swiftly evolving field of artificial intelligence, large language models (LLMs) have become powerful tools for crafting human-like text. However, their integration into real-world settings raises ethical, safety, regulatory, and legal concerns due to the potential for generating inappropriate, misleading, or biased content. To address these issues, guardrails designed for LLMs regulate information flow within these systems to prevent or mitigate undesirable outcomes. Our study compares two primary guardrail frameworks: Llama Guard by Meta and NeMo Guardrails by NVIDIA, representing LLM-based and vector similarity search methodologies, respectively. Through empirical evaluation, we assess the efficacy of these models in practical contexts, highlighting the importance of robust content moderation. Furthermore, we propose a novel integration of these frameworks using ensemble techniques that markedly enhances performance. The resulting ensemble models harness the strengths of Llama Guard and NeMo, reducing both false positives and false negatives, and ensuring accurate identification of unsafe prompts. Incorporating prompt embeddings, we further improve performance, emphasizing the role of contextual information in prompt classification. On the test dataset, Llama Guard achieves 89.0% accuracy while NeMo Guardrails reaches 97.0%. Using ensemble methods such as Random Forest and K-Nearest Neighbors with prompt embeddings, performance increases to 99.4%. This study advances responsible AI usage by enhancing user interaction safeguards with LLMs, focusing on deployment, model effectiveness, and ensemble techniques for guardrail enforcement.
 
 ## Documentation
 
-The repository contains all documentation, including our [Enhancing LLM Guardrails paper](Enhancing_LLM_Guardrails_Paper.pdf), [slides](ATDL_Guard_Slides.pdf), and code.
+The repository contains all documentation, including our datasets and code.
 
 - [/data](/data): our custom training data
 - [/llamaguard](/llamaguard): training and fine tuning Llama Guard model using our data and use case
