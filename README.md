@@ -18,4 +18,4 @@ The repository contains all documentation, including our [Enhancing LLM Guardrai
 - [/rephrase_eval](/rephrase_eval): study how well NeMo can capture similar semantic representations of a single config prompt
 - [/ensemble](/ensemble): applying ensemble methods to integrate models in attempt to increase overall accuracy
 
-Our PEFT Llama Guard model, which we trained using our custom dataset, can be found at [huggingface.co/anuvab/llama-guard-finetuned-1ep-1000](https://huggingface.co/anuvab/llama-guard-finetuned-1ep-1000).
+Our PEFT Llama Guard model, which we trained using our custom dataset, can be found at [https://huggingface.co/neurips/llama-guard-finetuned-1ep-1000](https://huggingface.co/neurips/llama-guard-finetuned-1ep-1000).
